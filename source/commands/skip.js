@@ -34,7 +34,7 @@ module.exports = {
                 if (!voiceChannel) return embed.notInVoice(message, lang);
                 const queue = player.getQueue(message);
                 if (!queue) return embed.notQueue(message, lang);
-                if (queue.songs.map((song, i) => i).length == 1) return embed.err(message, "**مفيش حاجه اسكب ليه هل ات عبيت**");
+                if (queue.songs.map((song, i) => i).length == 1) return embed.err(message, "**مفيش حاجه اسكب بتعمل اي**");
                 else {
                     player.skip(message)
                     embed.done(message, "**تم تخطي الغنيه**")

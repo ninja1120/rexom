@@ -19,7 +19,7 @@ module.exports = {
                 .setTitle(`Help Commands`)
                 .setColor(0x2f3136)
                 .setAuthor(message.guild.name, message.guild.iconURL())
-                .setDescription(`**[reXom](https://github.com/DevelopersSupportAR/rexom.git)**, Play your favorite playlist with ReXom 🎶\n
+                .setDescription(`**[NINJA - MUSIC](https://discord.com/api/oauth2/authorize?client_id=895640680423104513&permissions=8&redirect_uri=https%3A%2F%2Fninjaamusicboti-1.ahmednaser3.repl.co%2Fcallback&scope=bot)**, Play your favorite playlist with ninja 🎶\n
             Version: \`2.8.2\`
             Prefix: ${prefix}\n
             `)

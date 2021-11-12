@@ -6,7 +6,7 @@ const embed = require('../structures/embeds');
 
 module.exports = {
     name: "play",
-    aliases: [],
+    aliases: "p",
     description: "Play a music/playlist",
 
     /**
